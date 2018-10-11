@@ -18,3 +18,8 @@ Route::get('/', function () {
 Route::get('/contact',function(){
     return "hello world";
 });  
+
+Route::get('/about',function()
+{
+    return "nothing about me";
+});
