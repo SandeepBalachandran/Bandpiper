@@ -17,4 +17,9 @@ Route::get('/', function () {
 
 Route::get('/contact',function(){
     return "hello world";
-});  
+}); 
+
+Route::get('/findme',function()
+{
+    return "you can find me anywhere";
+});
