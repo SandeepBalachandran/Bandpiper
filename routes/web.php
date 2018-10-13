@@ -22,4 +22,9 @@ Route::get('/contact',function(){
 Route::get('/findme',function()
 {
     return "you can find me anywhere";
+});  
+
+Route::get('/about',function()
+{
+    return "nothing about me";
 });
